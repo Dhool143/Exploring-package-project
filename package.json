@@ -7,6 +7,28 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "keywords": [
+    "nodejs",
+    "npm",
+    "package-json",
+    "express",
+    "backend"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fathiyayoosef/Exploring-package-json"
   }
 }
